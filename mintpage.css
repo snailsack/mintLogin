@@ -1,0 +1,14 @@
+
+body {
+    background-color: gainsboro;
+}
+li {
+    display: inline-block;
+}
+.box {
+    border: 2px solid;
+    height: 700px;
+    width: 400px;
+    background-color: white;
+    position: relative;
+}
