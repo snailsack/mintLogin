@@ -1,14 +1,77 @@
 
 body {
-    background-color: gainsboro;
+    background-color: #eceef1;
+    font-family: Helvetica;
+    
 }
+ul {
+    margin-top: 5px;
+    
+}
+
 li {
     display: inline-block;
+    list-style-type: none;
+    
 }
+h1 {
+    margin-bottom: 0;
+}
+h2 {
+    font-weight: 400;
+    margin: 0;
+    color: #4c4c4c;
+}
+p {
+    font-size: 14px;
+    font-weight: 300;
+    color: #4c4c4c;
+}
+a {
+    text-decoration: none;
+    color: #0077c5;
+    font-size: 12px;
+}
+.heady {
+    text-align: center;
+    
+}
+.heady h1{
+    color: grey;
+    font-size: 45px;
+}
+
+
 .box {
-    border: 2px solid;
-    height: 700px;
-    width: 400px;
+    border: 1px solid #c7c7c7;
+    height: 600px;
+    width: 350px;
     background-color: white;
     position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    border-radius: 5px;
 }
+.floaties {
+    /* float: left; */
+}
+.topBox {
+    text-align:center;
+    
+}
+.bottomBox {
+    text-align: center;
+}
+.veryBottomBox {
+    text-align: center;
+    background-color: #eceef1;
+    
+}
+.checkbox-text {
+    font-size: 1em;
+    font-weight: 400;
+
+}
+.checkbox {}
